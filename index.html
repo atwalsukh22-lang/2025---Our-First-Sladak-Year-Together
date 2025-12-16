@@ -176,7 +176,7 @@ const slideMessages = [
 /* --------------------------
    Sparkles & hearts on tap
 -------------------------- */
-unction createSparkle(e) {
+function createSparkle(e) {
   const sparkle = document.createElement("div");
   sparkle.className = Math.random() > 0.5 ? "sparkle" : "heart";
   sparkle.style.left = e.clientX + "px";
